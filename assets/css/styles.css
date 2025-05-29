@@ -1,0 +1,100 @@
+*{
+    margin:0 ;
+    padding: 0;
+    
+}
+@font-face {
+    font-family: font1;
+    src: url(../font/BebasNeue-Regular.ttf), format('truetype');
+   
+}
+@font-face {
+    font-family: droid;
+    src: url(../font/idroid.otf), format('opentype');
+}
+body{
+    background-color: #c5ebd6;
+    
+}
+
+/* Cabeçalho */
+header{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-image: linear-gradient(to bottom, #3ddc84, #2FA866,#063D1E);
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding: 19px;
+    color: #fff;
+}
+.titulo-principal{
+    font-family: font1;
+    font-size: 3em;
+    font-weight: lighter;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+header p{
+    padding: 2em 11em;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* navegador */
+nav{
+    background-color:#063D1E;
+    height: 25px;
+    width: 100%;
+}
+nav a{
+   text-decoration: none;
+   color: #fff;
+   padding: 15px 10px;
+   font-size: 13px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+/* conteudo principal */
+main{
+    background-color: #fff;
+    margin: 0px 160px;
+    /* padding: 10px; */
+}
+section.artigo{
+    padding: 5px;
+}
+section h1,h2{
+    font-family: droid;
+    padding: 5px;
+    text-align: left;
+    color: #2FA866;
+}
+section h1{
+    font-size: 1.17em;
+}
+section h2{
+    font-size: 0.9em;
+    background-image: linear-gradient(to left,#fff, #c5ebd6);
+    margin: 10px;
+    
+}
+section p{
+    text-align: justify;
+    font-size: 13px;
+    text-indent: 30px;
+    padding: 5px;
+}
+/* sessões  */
+section figure{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+section#video-youtube{
+    display: flex;
+    padding: 20px;
+    background-color: #063D1E;
+
+}
