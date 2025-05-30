@@ -59,7 +59,7 @@ nav a{
 main{
     background-color: #fff;
     margin: 0px 160px;
-    /* padding: 10px; */
+    box-shadow: 2px 0px 3px black;
 }
 section.artigo{
     padding: 5px;
@@ -88,13 +88,73 @@ section p{
 /* sessões  */
 section figure{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
+}
+figure#man-droid img{
+    margin: auto;
+    height: 250px;
+    width: 30%;
     
 }
 section#video-youtube{
     display: flex;
     padding: 20px;
     background-color: #063D1E;
+    justify-content: center;
 
 }
+/* ultima seção */
+section#versoes{
+    padding: 10px;
+}
+section#versoes h1{
+    background-color: #2FA866;
+    color:#fff;
+    font-size: 13px;
+    border-radius: 5px 5px 0px 0px;
+}
+.container-extra{
+    display: flex;
+    flex-direction: column;
+    background-color: #c5ebd6;
+    padding-left: 7px;
+}
+.container-extra ul{
+      list-style-type: '\2714\0020\0020';
+      columns: 2;
+      list-style-position: inside;
+      font-size: 13px;
+     
+}
+/* Rodapé */
+footer{
+    background-color: #063D1E;
+    text-align: center;
+    color: #3ddc84;
+    font-size: 13px;
+    margin-top: 10px ;
+    font-weight: lighter;
+}
+span#rodape{
+    font-weight: bold;
+    color: #fff;
+}
+/* links */
+main a{
+    color: #2FA866;
+    text-decoration: none;
+    font-weight: bold;
+}
+main a::after{
+    content: '\1f517';
+    margin-right: 2px;
+    cursor: pointer;
+
+}
+span{
+    color: #2FA866;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* responsividade */
